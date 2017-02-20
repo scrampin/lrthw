@@ -13,7 +13,7 @@ end
 
 # Prints the first word after popping it off.
 def Ex25.print_first_word(words)
-	word = words.pop(1)
+	word = words.reverse.pop
 	puts word
 end
 
