@@ -31,7 +31,7 @@ def bear_room
 
 		if choice == "take honey"
 			dead("The bear looks at you and slaps your face off.")
-		elsif choice == "taunt bear" && bear_moved
+		elsif choice == "taunt bear" && !bear_moved
 			puts "The bear has moved from the door. You can go through it now."
 			bear_moved = true
 		elsif choice == "taunt bear" && bear_moved
@@ -44,7 +44,7 @@ def bear_room
 	end
 end
 
-def cthlhu_room
+def cthulhu_room
 	puts "Here you see the great evit Cthulhu."
 	puts "He, it, whatever stares at you and you go insane."
 	puts "Do you flee for your life or eat your head?"
