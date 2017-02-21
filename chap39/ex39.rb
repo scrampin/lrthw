@@ -11,7 +11,7 @@ states = {
 #create a basic set of states and some cities in them
 
 cities = {
-	'CA' +. 'San Francisco',
+	'CA' => 'San Francisco',
 	'MI' => 'Detroit',
 	'FL' => 'Jacksonville'
 }
