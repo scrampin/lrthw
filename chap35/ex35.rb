@@ -3,9 +3,8 @@ def gold_room
 
 	pring "> "
 	choice = $stdin.gets.chomp
-	choice-a = choice.split("")
-
-	if choice-a.include?("0") || choice-a.include?("1")
+	
+	if choice.include? "0" || choice.include? "1"
 		how_much = choice.to_i
 	else
 		dead("Man, learn to type a number.")
