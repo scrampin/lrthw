@@ -1,7 +1,3 @@
-class StartGame
-
-include Vic
-include Hyde
 
 def start
   puts "You decide to go for a run one Sunday morning."
@@ -17,9 +13,7 @@ def start
   end
 end
 
-end
+start
 
-StartGame.start
-
-require 'vic_park'
-require 'hyde_park'
+require "./vic_park.rb"
+require "./hyde_park.rb"
